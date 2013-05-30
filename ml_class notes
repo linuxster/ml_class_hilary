@@ -1,0 +1,7 @@
+curl 'http://api.nytimes.com/svc/search/v1/article?query=jazz&api-key=f3ba217666199700009d233c9bbd5a9f:17:67494701'
+
+
+Classification
+Paul Graham - Naive Bayes
+Jake Kauffmann and Chris Wiggens
+Pete Warden

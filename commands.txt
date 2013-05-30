@@ -1,0 +1,52 @@
+  284  ll access_log.txt 
+  285  l access_log.txt 
+  286  cat access_log.txt | -l
+  287  cat access_log.txt | wc -l
+  288  cat access_log.txt | head -n 5
+  289  cat access_log.txt | head -n 5 | awk '{print $4}'
+  290  cat access_log.txt | head -n 5 | awk -F/ '{print $4}'
+  291  cat access_log.txt | head -n 5 | awk '{print $4}'| sort
+  292  cat access_log.txt | head -n 5 | awk '{print $4}'| sort|uniq
+  293  cat access_log.txt | head -n 5 | awk '{print $4}'| sort|uniq -c
+  294  cat access_log.txt | head -n 5 | awk '{print $4}'| sort|uniq -c|sort -rn
+  295  cat access_log.txt | head -n 5 | awk '{print $4}'| sort|uniq -c|sort -rn|head -n 10
+  296  cat access_log.txt | head -n 5 | awk '{print $4}'| sort|uniq -c
+  297  cat access_log.txt | head -n 5 | awk '{print $4}'| sort| uniq -c | sort -rn
+  298  cat access_log.txt | awk '{print $4}'| sort| uniq -c | sort -rn | head -n 10
+  299  cat access_log.txt | awk '{print $4}'| sort| uniq -c | sort -rn | tail -n 10
+  300  head -n 10 access_log.txt 
+  301  head -n 5 access_log.txt 
+  302  head -n 5 access_log.txt | awk '{print $4}| sort | uniq -c | sort -n
+  303  head -n 5 access_log.txt | awk '{print $4}'| sort | uniq -c | sort -n
+  304  head -n 5 access_log.txt | awk '{print $4}'| sort | uniq -c | sort -n | awk '{print $1}'
+  305  head -n 5 access_log.txt | awk '{print $4}'| sort | uniq -c | sort -n | awk '{print $1}'| python scripts/histogram.py 
+  306  cat access_log.txt | awk '{print $4}'| sort | uniq -c | sort -n | awk '{print $1}'| python scripts/histogram.py
+  307  mvim scripts/histogram.py 
+  308  screen
+  309  cat access_log.txt | awk '{print $4}'| sort | uniq -c | sort -n | awk '{print $1}'| python scripts/bar_chart.py 
+  310  cat access_log.txt | awk '{print $4}'| sort | uniq -c | sort -n | awk '{print $1}'| python scripts/bar_chart.py |sort -n
+  311  cat access_log.txt | head -n 5 | awk '{print $4}'
+  312  cat access_log.txt 
+  313  mate access_log.txt 
+  314  cat access_log.txt | head -n 5 | awk '{print $5}'
+  315  cat access_log.txt | head -n 5 | awk '{print $15}'
+  316  cat access_log.txt | head -n 5 | awk '{print $6}'
+  317  cat access_log.txt | head -n 5 | awk '{print $7}'
+  318  cat access_log.txt | head -n 5 | awk '{print $12}'
+  319  cat access_log.txt | head -n 5 | awk '{print $11}'
+  320  cat access_log.txt | head -n 5 | awk '{print $1}'
+  321  cat access_log.txt | head -n 5 | awk '{print $2}'
+  322  cat access_log.txt | head -n 5 | awk '{print $3}'
+  323  cat access_log.txt | head -n 5 | awk '{print $3}'
+  324  cat access_log.txt | head -n 5 | awk '{print $3}'
+  325  cat access_log.txt | awk '{print $3}'
+  326  cat access_log.txt | awk '{print $3}'|sort -n
+  327  cat access_log.txt | awk '{print $3}'|sort -n| scripts/histogram.py
+  328  cat access_log.txt | awk '{print $3}'|sort -n scripts/histogram.py
+  329  cat access_log.txt | awk '{print $3}'|sort -n| python scripts/histogram.py
+  330  cat access_log.txt | awk '{print $4}'| sort | uniq -c | sort -n | awk '{print $1}'| python scripts/bar_chart.py |sort -n
+  337  cat access_log.txt | awk '{print $4}'| sort | uniq -c | sort -n | awk '{print $1}'| python scripts/bar_chart.py |sort -n
+  412  cd python2.7/ dot -Tpng thingiverse_tree.dot -o thingiverse_tree.png
+  413  dot -Tpng thingiverse_tree.dot -o thingiverse_tree.png
+  414  open thingiverse_tree.png 
+  439  mvim kmeans_descriptions.py 
